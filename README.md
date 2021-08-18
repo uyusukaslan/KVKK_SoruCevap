@@ -29,10 +29,10 @@
 
 - Daha detaylı kullanım için aşağıdaki torch komutları incelenebilir. 
 > if torch.cuda.is_available():
->    # torch.cuda.current_device()
->    # torch.cuda.device(0)
->    # torch.cuda.device_count()
->    # torch.cuda.get_device_name(0)
+>    torch.cuda.current_device()
+>    torch.cuda.device(0)
+>    torch.cuda.device_count()
+>    torch.cuda.get_device_name(0)
 
 ### Modelimizi İyileştirdiğimiz Veri Kümemiz
 - Mevcut Modelimizi KVKK kapsamında oluşturduğumuz 100 soru ve bu sorulara verilebilecek cevaplar ile eğittik.
