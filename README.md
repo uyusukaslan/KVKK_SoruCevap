@@ -51,7 +51,7 @@ SN | Soru | Cevap
 3 | Kişisel Verilerin Korunması Kanunu Ne Zaman Yürürlüğe Girmiştir | Kişisel Verilerin Korunması Kanunu Ne Zaman Yürürlüğe Girmiştir	Avrupa Birliğine uyum kapsamında hazırlanan Kişisel Verilerin Korunması Kanunu Tasarısı 18 Ocak 2016 tarihinde TBMM Başkanlığına sevk edilmiştir.\nSöz konusu metin 24 Mart 2016 tarihinde TBMM Genel Kurulu tarafından kabul edilerek kanunlaşmış ve 7 Nisan 2016 tarih ve 29677 sayılı Resmî Gazetede yayımlanarak yürürlüğe girmiştir.
 
 ### Model Testleri
-- Modelimizi __*/test.py*__ ile test ettik ve aşağıdaki örnek sonuçlara ulaştık.
+- Modelimizi __*/KVKK_Model_Test.py*__ ile test ettik ve aşağıdaki örnek sonuçlara ulaştık.
 
 
 
