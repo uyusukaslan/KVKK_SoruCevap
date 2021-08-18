@@ -12,6 +12,14 @@
 
 ![Model Eğitilmiş Hali](/ModelEgitimiOrnek02.png)
 
+#### Model Eğitimi İçin Kullanılan Kütüphaneler
+- torch (GPU kullanımı için)
+- pandas (Veri çerçevesi kullanmak için)
+- transformers (ön eğitilmiş modelin kullanılması ve farklı bir problem için tekrar eğitilmesi için kullanılan mimariyi eklemek için)
+- warnings (gereksiz uyarıları kapatmak için)
+- time (süre hesabı ve rastgele sayı üretimi için)
+- tqdm (ilerleme çubuğu oluşturmak için)
+
 ### Modelimizi İyileştirdiğimiz Veri Kümemiz
 - Mevcut Modelimizi KVKK kapsamında oluşturduğumuz 100 soru ve bu sorulara verilebilecek cevaplar ile eğittik.
 - Veri kümemiz model eğitimimizin yanında metin benzerliği ile tespit ettiğimiz cevapların saklandığı (**_KVKK_100_SORU_CEVAP.txt_**) bir metin dosyasıdır.
