@@ -7,6 +7,11 @@
 - Bu modele ve API uygulamasına https://huggingface.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1 İnternet sayfasından ulaşabilirsiniz.
 - Mevcut Modelimizi kendi veri kümeniz ile eğitebilmeniz için hazırladığımız bir PYTHON dosyamız mevcuttur. Daha iyi sonuç alabilmeniz için modelimizi eğitebilirsiniz.
 
+![Model Eğitilirken](/ModelEgitimiOrnek01.png)
+
+![Model Eğitilmiş Hali](/ModelEgitimiOrnek02.png)
+
+
 ### Modelimizi İyileştirdiğimiz Veri Kümemiz
 - Mevcut Modelimizi KVKK kapsamında oluşturduğumuz 100 soru ve bu sorulara verilebilecek cevaplar ile eğittik.
 - Veri kümemiz model eğitimimizin yanında metin benzerliği ile tespit ettiğimiz cevapların saklandığı metin dosyasıdır. _KVKK_100_SORU_CEVAP.txt_
