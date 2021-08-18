@@ -12,13 +12,27 @@
 
 ![Model Eğitilmiş Hali](/ModelEgitimiOrnek02.png)
 
-#### Model Eğitimi İçin Kullanılan Kütüphaneler
+##### Model Eğitimi İçin Kullanılan Kütüphaneler
 - torch (GPU kullanımı için)
 - pandas (Veri çerçevesi kullanmak için)
 - transformers (ön eğitilmiş modelin kullanılması ve farklı bir problem için tekrar eğitilmesi için kullanılan mimariyi eklemek için)
 - warnings (gereksiz uyarıları kapatmak için)
 - time (süre hesabı ve rastgele sayı üretimi için)
 - tqdm (ilerleme çubuğu oluşturmak için)
+
+#### Model Eğitiminde GPU Varsa Kullanmak İçin
+- Kullandığınız bilgisayarda modelinizi eğitmek için GPU varsa o GPU'yu kullanmak için
+> device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu") 
+- GPU'da yapmak istediğiniz hesaplama / işlem için
+> nesneyi .to(device) metodu ile kendine eşitlemeniz gerekmektedir.
+> Örneğin, model = model.to(device)
+
+- Daha detaylı kullanım için aşağıdaki torch komutları incelenebilir. 
+> if torch.cuda.is_available():
+>    # torch.cuda.current_device()
+>    # torch.cuda.device(0)
+>    # torch.cuda.device_count()
+>    # torch.cuda.get_device_name(0)
 
 ### Modelimizi İyileştirdiğimiz Veri Kümemiz
 - Mevcut Modelimizi KVKK kapsamında oluşturduğumuz 100 soru ve bu sorulara verilebilecek cevaplar ile eğittik.
