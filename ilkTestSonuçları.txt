@@ -1,0 +1,462 @@
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.3555])
+
+
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  İlgili Kişi Kimdir
+En yakın sorunun benzerlik puanı:  tensor([0.4239])
+
+
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.3629])
+
+
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.4229])
+
+
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.3816])
+
+
+Downloading: 100%|██████████| 690/690 [00:00<00:00, 719kB/s]
+Downloading: 100%|██████████| 3.70k/3.70k [00:00<00:00, 3.69MB/s]
+Downloading: 100%|██████████| 631/631 [00:00<00:00, 646kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 62.4kB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 115kB/s]
+Downloading: 100%|██████████| 134M/134M [01:11<00:00, 1.87MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 53.2kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 28.1kB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 720kB/s]
+Downloading: 100%|██████████| 517/517 [00:00<00:00, 524kB/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 502kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 96.1kB/s]
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.7051])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Açık Rıza Geri Alınabilir mi
+En yakın sorunun benzerlik puanı:  tensor([0.7795])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.6962])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.8126])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.7811])
+
+
+Downloading: 100%|██████████| 690/690 [00:00<00:00, 173kB/s]
+Downloading: 100%|██████████| 3.69k/3.69k [00:00<00:00, 3.71MB/s]
+Downloading: 100%|██████████| 629/629 [00:00<00:00, 321kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 62.2kB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 229kB/s]
+Downloading: 100%|██████████| 69.6M/69.6M [00:37<00:00, 1.83MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 53.3kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 155kB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 715kB/s]
+Downloading: 100%|██████████| 516/516 [00:00<00:00, 564kB/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 502kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 97.1kB/s]
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.4516])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Açık Rıza Geri Alınabilir mi
+En yakın sorunun benzerlik puanı:  tensor([0.6963])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.3841])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.5229])
+
+
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.4440])
+
+
+Downloading: 100%|██████████| 690/690 [00:00<00:00, 694kB/s]
+Downloading: 100%|██████████| 2.33k/2.33k [00:00<00:00, 1.20MB/s]
+Downloading: 100%|██████████| 572/572 [00:00<00:00, 294kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 62.6kB/s]
+Downloading: 100%|██████████| 341/341 [00:00<00:00, 331kB/s]
+Downloading: 100%|██████████| 539M/539M [04:52<00:00, 1.84MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 55.7kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 22.5kB/s]
+Downloading: 100%|██████████| 1.96M/1.96M [00:01<00:00, 1.17MB/s]
+Downloading: 100%|██████████| 371/371 [00:00<00:00, 392kB/s]
+Downloading: 100%|██████████| 996k/996k [00:01<00:00, 960kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 97.1kB/s]
+Downloading: 100%|██████████| 115/115 [00:00<00:00, 115kB/s]
+Downloading: 100%|██████████| 1.57M/1.57M [00:00<00:00, 1.87MB/s]
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.9610])
+
+
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Kurumun Görevleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.9142])
+
+
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.9402])
+
+
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.9326])
+
+
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.9401])
+
+
+Downloading: 100%|██████████| 690/690 [00:00<00:00, 713kB/s]
+Downloading: 100%|██████████| 2.35k/2.35k [00:00<00:00, 1.21MB/s]
+Downloading: 100%|██████████| 610/610 [00:00<00:00, 369kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 62.5kB/s]
+Downloading: 100%|██████████| 341/341 [00:00<00:00, 343kB/s]
+Downloading: 100%|██████████| 539M/539M [05:54<00:00, 1.52MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 27.1kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 57.1kB/s]
+Downloading: 100%|██████████| 1.96M/1.96M [00:01<00:00, 1.18MB/s]
+Downloading: 100%|██████████| 531/531 [00:00<00:00, 266kB/s]
+Downloading: 100%|██████████| 996k/996k [00:01<00:00, 792kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 38.4kB/s]
+Downloading: 100%|██████████| 114/114 [00:00<00:00, 57.2kB/s]
+Downloading: 100%|██████████| 1.58M/1.58M [00:01<00:00, 1.21MB/s]
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.3595])
+
+
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Veri İşleyen Kimdir
+En yakın sorunun benzerlik puanı:  tensor([0.2548])
+
+
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.2566])
+
+
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.4041])
+
+
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.2621])
+
+
+Downloading: 100%|██████████| 345/345 [00:00<00:00, 173kB/s]
+Downloading: 100%|██████████| 3.73k/3.73k [00:00<00:00, 1.88MB/s]
+Downloading: 100%|██████████| 572/572 [00:00<00:00, 293kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 123kB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 239kB/s]
+Downloading: 100%|██████████| 539M/539M [05:59<00:00, 1.50MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 26.7kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 28.3kB/s]
+Downloading: 100%|██████████| 1.96M/1.96M [00:01<00:00, 1.04MB/s]
+Downloading: 100%|██████████| 447/447 [00:00<00:00, 462kB/s]
+Downloading: 100%|██████████| 996k/996k [00:01<00:00, 953kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 213kB/s]
+Model:  sentence-transformers/quora-distilbert-multilingual
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.9034])
+
+
+Model:  sentence-transformers/quora-distilbert-multilingual
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Veri İşleyen Kimdir
+En yakın sorunun benzerlik puanı:  tensor([0.8758])
+
+
+Model:  sentence-transformers/quora-distilbert-multilingual
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.8870])
+
+
+Model:  sentence-transformers/quora-distilbert-multilingual
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.8698])
+
+
+Model:  sentence-transformers/quora-distilbert-multilingual
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.8627])
+
+
+Downloading: 100%|██████████| 690/690 [00:00<00:00, 691kB/s]
+Downloading: 100%|██████████| 3.71k/3.71k [00:00<00:00, 1.87MB/s]
+Downloading: 100%|██████████| 545/545 [00:00<00:00, 277kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 24.3kB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 238kB/s]
+Downloading: 100%|██████████| 265M/265M [02:56<00:00, 1.50MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 55.3kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 111kB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 705kB/s]
+Downloading: 100%|██████████| 319/319 [00:00<00:00, 319kB/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 391kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 97.1kB/s]
+Model:  sentence-transformers/msmarco-distilbert-base-v4
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.5605])
+
+
+Model:  sentence-transformers/msmarco-distilbert-base-v4
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Açık Rıza Geri Alınabilir mi
+En yakın sorunun benzerlik puanı:  tensor([0.5108])
+
+
+Model:  sentence-transformers/msmarco-distilbert-base-v4
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.4544])
+
+
+Model:  sentence-transformers/msmarco-distilbert-base-v4
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.6422])
+
+
+Model:  sentence-transformers/msmarco-distilbert-base-v4
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.5160])
+
+
+Downloading: 100%|██████████| 737/737 [00:00<00:00, 370kB/s]
+Downloading: 100%|██████████| 5.26k/5.26k [00:00<00:00, 875kB/s]
+Downloading: 100%|██████████| 523/523 [00:00<00:00, 523kB/s]
+Downloading: 100%|██████████| 116/116 [00:00<00:00, 59.3kB/s]
+Downloading: 100%|██████████| 25.5k/25.5k [00:00<00:00, 8.51MB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 239kB/s]
+Downloading: 100%|██████████| 265M/265M [02:56<00:00, 1.50MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 27.0kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 56.9kB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 711kB/s]
+Downloading: 100%|██████████| 333/333 [00:00<00:00, 170kB/s]
+Downloading: 100%|██████████| 13.8k/13.8k [00:00<00:00, 4.62MB/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 502kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 198kB/s]
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.6811])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Veri Sorumlusu Kimdir
+En yakın sorunun benzerlik puanı:  tensor([0.7369])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.6173])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.7380])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.5993])
+
+
+Downloading: 100%|██████████| 737/737 [00:00<00:00, 794kB/s]
+Downloading: 100%|██████████| 7.15k/7.15k [00:00<00:00, 7.57MB/s]
+Downloading: 100%|██████████| 653/653 [00:00<00:00, 132kB/s]
+Downloading: 100%|██████████| 116/116 [00:00<00:00, 58.7kB/s]
+Downloading: 100%|██████████| 15.7k/15.7k [00:00<00:00, 8.01MB/s]
+Downloading: 100%|██████████| 456k/456k [00:00<00:00, 693kB/s]
+Downloading: 100%|██████████| 349/349 [00:00<00:00, 69.9kB/s]
+Downloading: 100%|██████████| 329M/329M [03:37<00:00, 1.51MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 55.3kB/s]
+Downloading: 100%|██████████| 239/239 [00:00<00:00, 121kB/s]
+Downloading: 100%|██████████| 1.36M/1.36M [00:01<00:00, 1.08MB/s]
+Downloading: 100%|██████████| 333/333 [00:00<00:00, 454kB/s]
+Downloading: 100%|██████████| 13.1k/13.1k [00:00<00:00, 6.58MB/s]
+Downloading: 100%|██████████| 798k/798k [00:00<00:00, 878kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 96.6kB/s]
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.6472])
+
+
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Açık Rıza Geri Alınabilir mi
+En yakın sorunun benzerlik puanı:  tensor([0.6660])
+
+
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.5673])
+
+
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.6766])
+
+
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.5909])
+
+
+Downloading: 100%|██████████| 737/737 [00:00<00:00, 377kB/s]
+Downloading: 100%|██████████| 5.22k/5.22k [00:00<00:00, 5.28MB/s]
+Downloading: 100%|██████████| 612/612 [00:00<00:00, 984kB/s]
+Downloading: 100%|██████████| 116/116 [00:00<00:00, 116kB/s]
+Downloading: 100%|██████████| 25.5k/25.5k [00:00<00:00, 166kB/s]
+Downloading: 100%|██████████| 349/349 [00:00<00:00, 351kB/s]
+Downloading: 100%|██████████| 90.9M/90.9M [01:00<00:00, 1.50MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 10.6kB/s]
+Downloading: 100%|██████████| 112/112 [00:00<00:00, 55.9kB/s]
+Downloading: 100%|██████████| 466k/466k [00:00<00:00, 696kB/s]
+Downloading: 100%|██████████| 535/535 [00:00<00:00, 242kB/s]
+Downloading: 100%|██████████| 13.8k/13.8k [00:00<00:00, 1.95MB/s]
+Downloading: 100%|██████████| 232k/232k [00:00<00:00, 494kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 193kB/s]
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.5477])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  Kurul Kimler Hakkında İdari Yaptırım Kararı Verebilir
+En yakın sorunun benzerlik puanı:  tensor([0.6686])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.5249])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.6697])
+
+
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.5493])
+
+
+Downloading: 100%|██████████| 574/574 [00:00<00:00, 145kB/s]
+Downloading: 100%|██████████| 3.70k/3.70k [00:00<00:00, 1.89MB/s]
+Downloading: 100%|██████████| 709/709 [00:00<00:00, 713kB/s]
+Downloading: 100%|██████████| 122/122 [00:00<00:00, 30.5kB/s]
+Downloading: 100%|██████████| 229/229 [00:00<00:00, 229kB/s]
+Downloading: 100%|██████████| 1.11G/1.11G [12:20<00:00, 1.50MB/s]
+Downloading: 100%|██████████| 53.0/53.0 [00:00<00:00, 55.3kB/s]
+Downloading: 100%|██████████| 5.07M/5.07M [00:07<00:00, 698kB/s]
+Downloading: 100%|██████████| 150/150 [00:00<00:00, 74.9kB/s]
+Downloading: 100%|██████████| 9.10M/9.10M [00:05<00:00, 1.54MB/s]
+Downloading: 100%|██████████| 505/505 [00:00<00:00, 255kB/s]
+Downloading: 100%|██████████| 190/190 [00:00<00:00, 190kB/s]
+Model:  sentence-transformers/stsb-xlm-r-multilingual
+Test sorusu:  Rızası Açık Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.5233])
+
+
+Model:  sentence-transformers/stsb-xlm-r-multilingual
+Test sorusu:  Bizim rıza kimdir
+En yakın soru:  İlgili Kişi Kimdir
+En yakın sorunun benzerlik puanı:  tensor([0.4097])
+
+
+Model:  sentence-transformers/stsb-xlm-r-multilingual
+Test sorusu:  Açık Rıza Nedir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.4490])
+
+
+Model:  sentence-transformers/stsb-xlm-r-multilingual
+Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+En yakın sorunun benzerlik puanı:  tensor([0.4065])
+
+
+Model:  sentence-transformers/stsb-xlm-r-multilingual
+Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+En yakın soru:  Açık Rıza Nedir
+En yakın sorunun benzerlik puanı:  tensor([0.4525])
+
+
+Press any key to continue . . .
