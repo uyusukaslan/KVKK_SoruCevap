@@ -53,6 +53,32 @@ SN | Soru | Cevap
 ### Model Testleri
 - Modelimizi __*/KVKK_Model_Test.py*__ ile test ettik ve aşağıdaki örnek sonuçlara ulaştık.
 
+__MODELLERİN TEST SORULARINA GÖRE PERFORMANSLARI__
+
+1 | Rızası Açık Nedir | Bizim rıza kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir? | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+--- | --- | --- | --- | --- | ---
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1 | Açık Rıza Nedir | İlgili Kişi Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/paraphrase-xlm-r-multilingual-v1 | 0.3555 | 0.4239 | 0.3629 | 0.4229 | 0.3816
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2 | Açık Rıza Nedir | Açık Rıza Geri Alınabilir mi | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/paraphrase-MiniLM-L12-v2 | 0.7051 | 0.7795 | 0.6962 | 0.8126 | 0.7811
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v2 | Açık Rıza Nedir | Açık Rıza Geri Alınabilir mi | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/paraphrase-MiniLM-L3-v20.4516 | 0.6963 | 0.3841 | 0.5229 | 0.4440
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1 | Açık Rıza Nedir | Kurumun Görevleri Nelerdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/clip-ViT-B-32-multilingual-v1 | 0.9610 | 0.9142 | 0.9402 | 0.9326 | 0.9401
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2 | Açık Rıza Nedir | Veri İşleyen Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/distiluse-base-multilingual-cased-v2 | 0.3595 | 0.2548 | 0.2566 | 0.4041 | 0.2621
+Model:  sentence-transformers/quora-distilbert-multilingual | Açık Rıza Nedir | Veri İşleyen Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/quora-distilbert-multilingual | 0.9034 | 0.8758 | 0.8870 | 0.8698 | 0.8627
+Model:  sentence-transformers/msmarco-distilbert-base-v4 | Açık Rıza Nedir | Açık Rıza Geri Alınabilir mi | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  sentence-transformers/msmarco-distilbert-base-v4 | 0.5605 | 0.5108 | 0.4544 | 0.6422 | 0.5160
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot | Açık Rıza Nedir | Veri Sorumlusu Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot | 0.6811 | 0.7369 | 0.6173 | 0.7380 | 0.5993
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base | Açık Rıza Nedir | Açık Rıza Geri Alınabilir mi | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  flax-sentence-embeddings/all_datasets_v3_distilroberta-base | 0.6472 | 0.6660 | 0.5673 | 0.6766 | 0.5909
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos | Açık Rıza Nedir | Kurul Kimler Hakkında İdari Yaptırım Kararı Verebilir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos | 0.5477 | 0.6686 | 0.5249 | 0.6697 | 0.5493
+Model:  sentence-transformers/stsb-xlm-r-multilingual | Açık Rıza Nedir | İlgili Kişi Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Açık Rıza Nedir
+Model:  sentence-transformers/stsb-xlm-r-multilingual | 0.5233 | 0.4097 | 0.4490 | 0.4065 | 0.4525
 
 
 ### Sohbet Yazılımımız
