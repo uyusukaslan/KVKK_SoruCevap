@@ -1,5 +1,7 @@
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 def sorulariDosyadanOkuveListeOlarakDondur():
     gecici = []
@@ -38,13 +40,24 @@ for m in modelListesi:
     sayac=0
     for soru in encodedSoru:
         for i in range(100):
-            benzerlikListesi.append(util.cos_sim(soru, model.encode(soruListesi[i][0])))
+            benzerlikListesi.append(util.cos_sim(soru,model.encode(soruListesi[i][0])))
         sayac+=1
 
+    benzerlikListesi2 = []
+    for oge in benzerlikListesi:
+        benzerlikListesi2.append(float(oge))
+    del(benzerlikListesi)
+
     for s in range(sayac):
-        bul = benzerlikListesi.index(max(benzerlikListesi[0+s*100:99+s*100]))
+        bul = benzerlikListesi2.index(max(benzerlikListesi2[0+s*100:99+s*100]))
         print("Model: ",m)
         print("Test sorusu: ",testSorulari[s])
         print("En yakın soru: ",soruListesi[bul%100][0])
-        print("En yakın sorunun benzerlik puanı: ",max(benzerlikListesi[s]))
+        print("En yakın sorunun benzerlik puanı: ",max(benzerlikListesi2[0+s*100:99+s*100]))
+        print("100 soru için standart sapma: ",np.std(benzerlikListesi2[0+s*100:99+s*100]))
+        print("100 soru için varyans: ",np.var(benzerlikListesi2[0+s*100:99+s*100]))
+        print("100 soru için en az benzerlik: ",np.min(benzerlikListesi2[0+s*100:99+s*100]))
+        print("100 soru için en çok benzerlik: ",np.max(benzerlikListesi2[0+s*100:99+s*100]))
+        plt.hist(benzerlikListesi2[0+s*100:99+s*100], 100)
+        plt.show() # subplot ile gösterim geliştirilecek/iyileştirilecek 
         print("\n")
