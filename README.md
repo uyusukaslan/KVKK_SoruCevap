@@ -83,3 +83,4 @@ Model:  sentence-transformers/stsb-xlm-r-multilingual | 0.5233 | 0.4097 | 0.4490
 
 ### Sohbet Yazılımımız
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
+- __*/arayuz_KVKK_SoruCevapalamaSistemi.py*__ isimli dosyamız ile hem kullanıcının sorularını alıyoruz hem de onlara cevap veriyoruz.
