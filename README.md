@@ -10,7 +10,7 @@
 
 ![Model Eğitilirken](OrnekEkranAlintilari/ModelEgitimiOrnek01.png)
 
-![Model Eğitilmiş Hali](/OrnekEkranAlintilari/ModelEgitimiOrnek01.png)
+![Model Eğitilmiş Hali](OrnekEkranAlintilari/ModelEgitimiOrnek02.png)
 
 ##### Model Eğitimi İçin Kullanılan Kütüphaneler
 - torch (GPU kullanımı için)
