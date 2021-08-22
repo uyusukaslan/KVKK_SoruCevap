@@ -8,9 +8,9 @@
 - Kullandığımız ana modele ve API uygulamasına https://huggingface.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1 İnternet sayfasından ulaşabilirsiniz.
 - Mevcut Modelimizi kendi veri kümeniz ile eğitebilmeniz için hazırladığımız bir PYTHON dosyamız mevcuttur. __*/ModelEgitimiYeniYontem.py*__ isimli dosyamız TSV (Tab-Separated Values) içerikli metin dosyasından ikişer satır okuyup modele eğitim için göndermektedir. Mevcut veri kümenizi saklama biçiminize göre __*def sorulariDosyadanOkuveListeOlarakDondur(son):*__ isimli fonksiyonu değiştirmeniz gerekir.
 
-![Model Eğitilirken](Örnek Ekran Alıntıları/ModelEgitimiOrnek01.png)
+![Model Eğitilirken](OrnekEkranAlintilari/ModelEgitimiOrnek01.png)
 
-![Model Eğitilmiş Hali](Örnek Ekran Alıntıları/ModelEgitimiOrnek02.png)
+![Model Eğitilmiş Hali](/OrnekEkranAlintilari/ModelEgitimiOrnek01.png)
 
 ##### Model Eğitimi İçin Kullanılan Kütüphaneler
 - torch (GPU kullanımı için)
