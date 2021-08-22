@@ -2,19 +2,42 @@ from sentence_transformers import SentenceTransformer, util
 import pandas as pd
 import tkinter
 import tkinter.scrolledtext
+# from zemberek import TurkishSentenceNormalizer, TurkishMorphology Yavaş Çalıştığı için normalizasyondan vazgeçtik
 
-model = SentenceTransformer('sentence-transformers/clip-ViT-B-32-multilingual-v1')
+model = SentenceTransformer('sentence-transformers/quora-distilbert-multilingual')
 
 def onIslemler(cumle):
     
     # Tüm büyük harfler küçük harflere çevriliyor
     cumle = cumle.lower()
 
-    # Noklama işaretleri kaldırılıyor
+    # Noklama işaretleri ve rakamlar kaldırılıyor
     for karakter in cumle:
-        if not(karakter.isalnum or " "):
-            if not(karakter in "çğıöşü"):
-                cumle.replace(karakter,"")
+        if not(karakter in "abcçdefgğhıijklmnoöprsştuüvyz "): #boşluk kalsın
+                cumle = cumle.replace(karakter,"")
+
+    # Bilinen kısaltmalar açılıyor
+    while "kvkk" in cumle:
+        cumle = cumle.replace("kvkk","kişisel verilerin korunumu kanunu")    
+
+    # Etkisiz Kelimeler (Stop Words) Çıkartılıyor
+    with open("poyraz_temiz_stop_words.txt", "rt", encoding="utf-8") as dosyaEtkisizKelimeler:
+        etkisizKelimeListesi = dosyaEtkisizKelimeler.readlines()
+        cumleListe = cumle.split(" ")
+        for cumleninKelimesi in cumleListe:
+            for kelime in etkisizKelimeListesi:
+                if cumleninKelimesi in kelime:
+                    while cumleninKelimesi in cumleListe:
+                        cumleListe.remove(cumleninKelimesi)
+        cumle = ""
+        cumle = ' '.join(map(str, cumleListe))
+
+    # Cümle normalizasyonu  YAVAŞ ÇALIŞTIĞI İÇİN normalizasyondan vazgeçtik.
+#    morphology = TurkishMorphology.create_with_defaults()
+#    normalizer = TurkishSentenceNormalizer(morphology)
+#    cumle = normalizer.normalize(cumle)
+
+
     return str(cumle)
 
 def sorulariDosyadanOkuveListeOlarakDondur():
@@ -26,10 +49,6 @@ def sorulariDosyadanOkuveListeOlarakDondur():
         gecici[i].append(df.to_numpy()[i][1])       #Soru
         gecici[i].append(df.to_numpy()[i][2])       #Cevabı
     return(gecici)
-
-    # Bilinen kısaltmalar açılıyor
-    while "kvkk" in cumle:
-        cumle.replace("kvkk","kişisel verilerin korunumu kanunu")
 
 def sohbetEkraniniOlustur():
 
@@ -59,8 +78,11 @@ def sohbetEkraniniOlustur():
             # hazır soruların encode edilmiş hallerinin benzerlik puanları bir listeye kaydediliyor
             benzerlikListesi = []
             soruListesi = sorulariDosyadanOkuveListeOlarakDondur()
+
             for i in range(100):
-                benzerlikListesi.append(util.cos_sim(encodedSoru, model.encode(soruListesi[i][0])))
+                soru = soruListesi[i][0]
+                soru = onIslemler(soru)
+                benzerlikListesi.append(util.cos_sim(encodedSoru, model.encode(soru)))
 
             # Benzerlik puanı en büyük soru ve cevabı döndürülür
             bul = benzerlikListesi.index(max(benzerlikListesi))
