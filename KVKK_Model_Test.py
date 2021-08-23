@@ -48,6 +48,9 @@ for m in modelListesi:
         benzerlikListesi2.append(float(oge))
     del(benzerlikListesi)
 
+    grafik, eksen = plt.subplots(sayac)
+    grafik.suptitle("Modellerin Sorulara Göre Performansları")
+    renkKatari = "rgbmk"
     for s in range(sayac):
         bul = benzerlikListesi2.index(max(benzerlikListesi2[0+s*100:99+s*100]))
         print("Model: ",m)
@@ -58,6 +61,15 @@ for m in modelListesi:
         print("100 soru için varyans: ",np.var(benzerlikListesi2[0+s*100:99+s*100]))
         print("100 soru için en az benzerlik: ",np.min(benzerlikListesi2[0+s*100:99+s*100]))
         print("100 soru için en çok benzerlik: ",np.max(benzerlikListesi2[0+s*100:99+s*100]))
-        plt.hist(benzerlikListesi2[0+s*100:99+s*100], 100)
-        plt.show() # subplot ile gösterim geliştirilecek/iyileştirilecek 
+        eksen[s].hist(benzerlikListesi2[0+s*100:99+s*100], 100, color = renkKatari[s])
+        eksen[s].set_title(m+" - "+testSorulari[s])
+        eksen[s].label_outer()
         print("\n")
+
+ #   plt.legend(m)
+
+#    plt.gcf().set_dpi(300) Grafik çözünürlüğünü ayarlamak için kullanılabilir.
+#    dosyaIsmi = m.replace("/"," ") dosya isminde "/" olmasın
+#    plt.savefig(dosyaIsmi+".png")  dosya olarak grafiğimizi kaydedebiliriz.
+
+    plt.show()
