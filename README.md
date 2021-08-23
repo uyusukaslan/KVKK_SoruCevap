@@ -80,7 +80,9 @@ Model:  flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos | 0.5477 | 0.668
 Model:  sentence-transformers/stsb-xlm-r-multilingual | Açık Rıza Nedir | İlgili Kişi Kimdir | Açık Rıza Nedir | Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir | Açık Rıza Nedir
 Model:  sentence-transformers/stsb-xlm-r-multilingual | 0.5233 | 0.4097 | 0.4490 | 0.4065 | 0.4525
 
-- Modelimizi güncellenmiş __*/KVKK_Model_Test.py*__ ile test ettik ve model seçimimiz etkileyen anlamlı sonuçlara ulaştık. **ModelTestSonuclariGorselleri** isimli klasör içindeki README.MD dosyamızda detaylarına yer verdiğimiz testimizde 5 soru ile mevcut 100 sorumuzun benzerliğini 11 farklı modelde hesapladık ve değerlendirdik. Modelimizi değiştirmeye ve **sentence-transformers/quora-distilbert-multilingual** isimli modeli kullanmaya karar verdik.
+
+
+Modelimizi güncellenmiş __*/KVKK_Model_Test.py*__ ile test ettik ve model seçimimiz etkileyen anlamlı sonuçlara ulaştık. **ModelTestSonuclariGorselleri** isimli klasör içindeki README.MD dosyamızda detaylarına yer verdiğimiz testimizde 5 soru ile mevcut 100 sorumuzun benzerliğini 11 farklı modelde hesapladık ve değerlendirdik. Modelimizi değiştirmeye ve **sentence-transformers/quora-distilbert-multilingual** isimli modeli kullanmaya karar verdik.
 
 Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesaplamalar yapılıp sonuçlar üretildi ve benzerlik değerlerinin HİSTOGRAM (sıklık) grafiği hazırlandı
 - Test sorusu
