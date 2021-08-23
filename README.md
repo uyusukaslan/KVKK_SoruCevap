@@ -95,6 +95,8 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 
 ![Model Örnek performansı](ModelTestSonuclariGorselleri/1.png)
 
+**TEST DETAYLARI İÇİN MUTLAKA ZİYARET EDİN:** https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelTestSonuclariGorselleri#readme
+
 ### Sohbet Yazılımımız
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
 - __*/arayuz_KVKK_SoruCevapalamaSistemi.py*__ isimli dosyamız ile hem kullanıcının sorularını alıyoruz hem de onlara cevap veriyoruz.
