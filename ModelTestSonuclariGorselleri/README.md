@@ -1,4 +1,4 @@
-# Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi (Model Seçimi - Modellerin Performanslarının Testi ve Görselleri)
+# Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi `<addr>` (Model Seçimi - Modellerin Performanslarının Testi ve Görselleri)
 **Türkiye Açık Kaynak Platformu** tarafından **Türkçe Doğal Dil İşleme** konusunda farkındalık oluşturmak amacıyla 2021 yılında **TeknoFest 2021 İSTANBUL** kapsamında çevrimiçi düzenlenen yarışma için geliştirdiğimiz projemiz **Kişisel Verilerin Korunumu Kanunu (KVKK)** hakkindaki **sorulara cevap veren** otonom bir sohbet yazılımı / çağrı merkezidir.
 
 ## Modellerin Performanslarının Testi ve Görselleri
