@@ -87,3 +87,89 @@
 - 100 soru için en çok benzerlik:  1.0000001192092896
 
 ![Model Performansı](2.png)
+
+### sentence-transformers/paraphrase-MiniLM-L3-v2
+#### Test sorusu:  Rızası Açık Nedir
+- En yakın soru:  Açık Rıza Nedir
+- En yakın sorunun benzerlik puanı:  0.986303448677063
+- 100 soru için standart sapma:  0.16766864873826856
+- 100 soru için varyans:  0.028112775769716884
+- 100 soru için en az benzerlik:  0.08598922193050385
+- 100 soru için en çok benzerlik:  0.986303448677063
+
+#### Test sorusu:  Bizim rıza kimdir
+- En yakın soru:  Açık Rıza Geri Alınabilir mi
+- En yakın sorunun benzerlik puanı:  0.6073688268661499
+- 100 soru için standart sapma:  0.1015547065322114
+- 100 soru için varyans:  0.01031335841884358
+- 100 soru için en az benzerlik:  0.12434351444244385
+- 100 soru için en çok benzerlik:  0.6073688268661499
+
+#### Test sorusu:  Açık Rıza Nedir
+- En yakın soru:  Açık Rıza Nedir
+- En yakın sorunun benzerlik puanı:  1.000000238418579
+- 100 soru için standart sapma:  0.15614985774195528
+- 100 soru için varyans:  0.02438277807283287
+- 100 soru için en az benzerlik:  0.09413276612758636
+- 100 soru için en çok benzerlik:  1.000000238418579
+
+#### Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+- En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+- En yakın sorunun benzerlik puanı:  0.989203929901123
+- 100 soru için standart sapma:  0.09872772783762052
+- 100 soru için varyans:  0.00974716424397927
+- 100 soru için en az benzerlik:  0.19603364169597626
+- 100 soru için en çok benzerlik:  0.989203929901123
+
+#### Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+- En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+- En yakın sorunun benzerlik puanı:  1.0000003576278687
+- 100 soru için standart sapma:  0.12472795777975887
+- 100 soru için varyans:  0.015557063451909312
+- 100 soru için en az benzerlik:  0.18743488192558289
+- 100 soru için en çok benzerlik:  1.0000003576278687
+
+![Model Performansı](3.png)
+
+### sentence-transformers/clip-ViT-B-32-multilingual-v1
+#### Test sorusu:  Rızası Açık Nedir
+- En yakın soru:  Açık Rıza Nedir
+- En yakın sorunun benzerlik puanı:  0.998851478099823
+- 100 soru için standart sapma:  0.033195733145343534
+- 100 soru için varyans:  0.0011019566990568593
+- 100 soru için en az benzerlik:  0.7920548319816589
+- 100 soru için en çok benzerlik:  0.998851478099823
+
+#### Test sorusu:  Bizim rıza kimdir
+- En yakın soru:  Kurumun Görevleri Nelerdir
+- En yakın sorunun benzerlik puanı:  0.9836572408676147
+- 100 soru için standart sapma:  0.034604810653086016
+- 100 soru için varyans:  0.0011974929203359354
+- 100 soru için en az benzerlik:  0.7791657447814941
+- 100 soru için en çok benzerlik:  0.9836572408676147
+
+#### Test sorusu:  Açık Rıza Nedir
+- En yakın soru:  Açık Rıza Nedir
+- En yakın sorunun benzerlik puanı:  0.9999998211860657
+- 100 soru için standart sapma:  0.031402886998495055
+- 100 soru için varyans:  0.0009861413118402496
+- 100 soru için en az benzerlik:  0.7989063262939453
+- 100 soru için en çok benzerlik:  0.9999998211860657
+
+#### Test sorusu:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulması Gereken Hususlar Nelerdir?
+- En yakın soru:  Veri Sorumlusunun Meşru Menfaatini Tespit Etmek İçin Göz Önünde Bulundurulmas Gereken Hususlar Nelerdir
+- En yakın sorunun benzerlik puanı:  0.9961882829666138
+- 100 soru için standart sapma:  0.02492323103595429
+- 100 soru için varyans:  0.000621167445271555
+- 100 soru için en az benzerlik:  0.8270413875579834
+- 100 soru için en çok benzerlik:  0.9961882829666138
+
+#### Test sorusu:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+- En yakın soru:  Kanun Kapsamındaki Kısmi İstisna Halleri Nelerdir
+- En yakın sorunun benzerlik puanı:  1.0000003576278687
+- 100 soru için standart sapma:  0.02832038463617516
+- 100 soru için varyans:  0.0008020441859409061
+- 100 soru için en az benzerlik:  0.8038846254348755
+- 100 soru için en çok benzerlik:  1.0000003576278687
+
+![Model Performansı](4.png)
