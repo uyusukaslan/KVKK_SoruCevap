@@ -63,10 +63,9 @@ def sohbetEkraniniOlustur():
             sohbetEkrani.tag_config("uyariEkraniRengi", foreground="#CC0000", justify="center")
             sohbetEkrani.tag_config("sisteminAdininRengi", foreground="#000000")
             sohbetEkrani.tag_config("sisteminCevabininRengi", foreground="#999999")
-            
+            sohbetEkrani.insert(tkinter.END, "\nSorunuz analiz ediliyor.\n\n")
             sohbetEkrani.insert(tkinter.END, "\nSorduğunuz soru: ","kullanicininAdininRengi")
             sohbetEkrani.insert(tkinter.END, kullanicininGirdigiSoru + "\n", "kullanicininSorusununRengi")
-            sohbetEkrani.insert(tkinter.END, "\nSorunuz analiz ediliyor.\n\n","uyariEkraniRengi")
 
             # Girilen soru ön işlemlerden geçirilir.
             kullanicininGirdigiSoru = onIslemler(kullanicininGirdigiSoru)
@@ -87,25 +86,27 @@ def sohbetEkraniniOlustur():
             # Benzerlik puanı en büyük soru ve cevabı döndürülür
             bul = benzerlikListesi.index(max(benzerlikListesi))
             soruMetni = soruListesi[bul][0]+"?\n"
-            cevapMetni = soruListesi[bul][1]+".\n"
             sohbetEkrani.insert(tkinter.END, soruMetni , "sisteminAdininRengi")
-            sohbetEkrani.insert(tkinter.END, cevapMetni, "sisteminCevabininRengi")
+            ayir = chr(92)+"n"
+            cevapMetni = str(soruListesi[bul][1]).split(ayir)
+            for cevap in cevapMetni:
+                sohbetEkrani.insert(tkinter.END, cevap+"\n\n", "sisteminCevabininRengi")
         
         sohbetEkrani.see(tkinter.END)
 
     ekran = tkinter.Tk()
     ekran.title("Son Dil Bükücüler - KVKK Soru Cevap Sistemi")
-    ekran.geometry("640x480")
+    ekran.geometry("1024x768")
     ekran.resizable(width=False, height=False)
     ekran.configure(background="#336699")
-    sohbetEkrani = tkinter.scrolledtext.ScrolledText(ekran, bd=0, bg="#CCDDEE", width="620", height="400", font="System",wrap=tkinter.WORD)
-    sohbetEkrani.place(x=10, y=100, height=270, width=620)
-    etiket1 = tkinter.Label(ekran, bd=0, bg="#FFFFDD", text="Kişisel Verilerin Kullanımı Kanunu Soru - Cevap Sistemine hoş geldiniz.\nSistemimiz sorularınızı aşağıdaki kutucuktan kabul edecektir.\nKabul edilen sorunuz analiz edilip anlaşılmaya çalışılacaktır.\nAnlaşılan sorunuza cevap verilecektir.", relief=tkinter.FLAT, justify= "center")
-    etiket1.place(x=10, y=10, height=80, width=620)
+    sohbetEkrani = tkinter.scrolledtext.ScrolledText(ekran, bd=0, bg="#CCDDEE", width="1004", height="688", font="System",wrap=tkinter.WORD)
+    sohbetEkrani.place(x=10, y=70, width=1004, height=598)
+    etiket1 = tkinter.Label(ekran, bd=0, bg="#FFFFDD", text="Kişisel Verilerin Kullanımı Kanunu Soru - Cevap Sistemine hoş geldiniz.\nSistemimiz sorularınızı aşağıdaki kutucuktan kabul edecektir. Kabul edilen sorunuz analiz edilip anlaşılmaya çalışılacaktır. Anlaşılan sorunuza cevap verilecektir.", relief=tkinter.FLAT, justify= "center")
+    etiket1.place(x=10, y=10, width=1004, height=50)
     etiket2 = tkinter.Label(ekran, bd=0, bg="#FFDDDD", text="Sorunuzu aşağıdaki kutucuğa yazdıktan sonra ENTER tuşuna basınız!", relief=tkinter.FLAT, justify= "center")
-    etiket2.place(x=10, y=390, height=30, width=620)
+    etiket2.place(x=10, y=688, width=1004, height=30)
     girdiEkrani = tkinter.Entry(ekran, bd=0, bg="#EEEEFF", font="Terminal", justify="center")
-    girdiEkrani.place(x=10, y=430, height=30, width=620)
+    girdiEkrani.place(x=10, y=718, width=1004, height=30)
     girdiEkrani.focus()
     girdiEkrani.bind("<Return>", soruyuCevapla)
     ekran.mainloop()
