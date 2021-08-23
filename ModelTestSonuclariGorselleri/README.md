@@ -3,13 +3,13 @@
 
 ## Modellerin Performanslarının Testi ve Görselleri
 ### sentence-transformers/paraphrase-xlm-r-multilingual-v1
--Test sorusu:  Rızası Açık Nedir
--En yakın soru:  Açık Rıza Nedir
--En yakın sorunun benzerlik puanı:  0.7881278991699219
--100 soru için standart sapma:  0.09031134114351157
--100 soru için varyans:  0.008156138339139725
--100 soru için en az benzerlik:  0.2061745971441269
--100 soru için en çok benzerlik:  0.7881278991699219
+- Test sorusu:  Rızası Açık Nedir
+- En yakın soru:  Açık Rıza Nedir
+- En yakın sorunun benzerlik puanı:  0.7881278991699219
+- 100 soru için standart sapma:  0.09031134114351157
+- 100 soru için varyans:  0.008156138339139725
+- 100 soru için en az benzerlik:  0.2061745971441269
+- 100 soru için en çok benzerlik:  0.7881278991699219
 
 -Test sorusu:  Bizim rıza kimdir
 -En yakın soru:  İlgili Kişi Kimdir
