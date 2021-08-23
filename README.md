@@ -100,3 +100,12 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 ### Sohbet Yazılımımız
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
 - __*/arayuz_KVKK_SoruCevapalamaSistemi.py*__ isimli dosyamız ile hem kullanıcının sorularını alıyoruz hem de onlara cevap veriyoruz.
+
+**İlk tasarımını iyileştirdikten sonra aşağıdaki gibi görülen soru - cevap sistemimizi iyileştirdik.
+
+![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/Soru Cevap Sisteminin Çalışma Örneği 01.png)
+![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/Soru Cevap Sisteminin Çalışma Örneği 02.png)
+
+**İyileştirmelerimize devam ederek son hali olan aşağıdaki ekran alıntısı soru - cevap sistemimizi göstermekledir.
+
+![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/Soru Cevap Sisteminin Çalışma Örneği 03.png)
