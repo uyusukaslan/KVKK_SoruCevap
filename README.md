@@ -1,3 +1,12 @@
+**Proje Bağlılık Listesi**
+- arayuz_KVKK_SoruCevapalamaSistemi.py
+- KVKK_100_SORU_CEVAP.txt
+- poyraz_temiz_stop_words.txt
+**Çalışma Ortamı**
+- asd
+
+
+
 # Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi
 **Türkiye Açık Kaynak Platformu** tarafından **Türkçe Doğal Dil İşleme** konusunda farkındalık oluşturmak amacıyla 2021 yılında **TeknoFest 2021 İSTANBUL** kapsamında çevrimiçi düzenlenen yarışma için geliştirdiğimiz projemiz **Kişisel Verilerin Korunumu Kanunu (KVKK)** hakkindaki **sorulara cevap veren** otonom bir sohbet yazılımı / çağrı merkezidir.
 
