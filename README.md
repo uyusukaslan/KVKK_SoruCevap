@@ -2,6 +2,7 @@
 - arayuz_KVKK_SoruCevapalamaSistemi.py
 - KVKK_100_SORU_CEVAP.txt
 - poyraz_temiz_stop_words.txt
+
 **Çalışma Ortamı**
 - asd
 
