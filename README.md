@@ -1,30 +1,60 @@
 # __*Projemizin Çalışması için gerekenler*__
 
-**Proje Bağlılık Listesi**
+## Proje Bağlılık Listesi
 
-**Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli dosyalar**
-- arayuz_KVKK_SoruCevapalamaSistemi.py
-- KVKK_100_SORU_CEVAP.txt
-- poyraz_temiz_stop_words.txt
+#### Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli dosyalar
 
-**Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar**
-- pip-21.2.4 >> https://pypi.org/project/pip/
--  https://pypi.org/project/sentence-transformers/0.3.0/ / pip install sentence-transformers
-- diğer ortam
+Dosya Adı|
+---|
+arayuz_KVKK_SoruCevapalamaSistemi.py
+KVKK_100_SORU_CEVAP.txt
+poyraz_temiz_stop_words.txt
 
-**Modeli Eğitmek için gerekli dosyalar**
-- dosya isimleri
+#### Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar
 
-**Modeli Eğitmek için gerekli kurulumlar**
-- pip-21.2.4 >> https://pypi.org/project/pip/
-- diğer ortam
+Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+------------|------------|-
+pip-21.2.4 | **yok** | https://pypi.org/project/pip/
+sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
+pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
+Tkinter 0.0.2.1 | pip install pytk | https://pypi.org/project/pytk/
 
-**Modelleri Test Etmek için gerekli dosyalar**
-- dosya isimleri
+#### Modeli Eğitmek için gerekli dosyalar
 
-**Modelleri Test Etmek için gerekli kurulumlar**
-- pip-21.2.4 >> https://pypi.org/project/pip/
-- diğer ortam
+Dosya Adı|
+---|
+arayuz_KVKK_SoruCevapalamaSistemi.py|
+KVKK_100_SORU_CEVAP.txt|
+poyraz_temiz_stop_words.txt|
+ModelEgitimiYeniYontem.py|
+
+#### Modeli Eğitmek için gerekli kurulumlar
+
+Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+------------|------------|---------
+pip-21.2.4 | **yok** | https://pypi.org/project/pip/
+sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
+pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
+Tkinter 0.0.2.1 | pip install pytk | https://pypi.org/project/pytk/
+PyTorch 1.9.0 | pip install torch | https://pypi.org/project/torch/
+tqdm | pip install tqdm | https://pypi.org/project/tqdm/
+transformers | pip install transformers | https://pypi.org/project/transformers/
+
+#### Modelleri Test Etmek için gerekli dosyalar
+Dosya Adı|
+---|
+arayuz_KVKK_SoruCevapalamaSistemi.py
+KVKK_100_SORU_CEVAP.txt
+poyraz_temiz_stop_words.txt
+
+#### Modelleri Test Etmek için gerekli kurulumlar
+
+Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+------------|------------|---------
+pip-21.2.4 | **yok** | https://pypi.org/project/pip/
+sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
+pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
+Tkinter 0.0.2.1 | pip install pytk | https://pypi.org/project/pytk/
 
 
 # Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi
