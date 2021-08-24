@@ -1,12 +1,22 @@
 # __*Projemizin Çalışması için gerekenler*__
 
 **Proje Bağlılık Listesi**
+
+**Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli dosyalar**
 - arayuz_KVKK_SoruCevapalamaSistemi.py
 - KVKK_100_SORU_CEVAP.txt
 - poyraz_temiz_stop_words.txt
 
-**Çalışma Ortamı**
-- asd
+**Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar**
+- sentence_transformers >> https://pypi.org/project/sentence-transformers/0.3.0/
+- diğer ortam
+
+**Modeli Eğitmek için gerekli dosyalar**
+- dosya isimleri
+
+**Modeli Eğitmek için gerekli kurulumlar**
+- torch >> https://pytorch.org/get-started/locally/
+- diğer ortam
 
 
 
