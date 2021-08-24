@@ -18,6 +18,12 @@
 - torch >> https://pytorch.org/get-started/locally/
 - diğer ortam
 
+**Modelleri Test Etmek için gerekli dosyalar**
+- dosya isimleri
+
+**Modelleri Test Etmek için gerekli kurulumlar**
+- numpy >> https://numpy.org/install/
+- diğer ortam
 
 
 # Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi
