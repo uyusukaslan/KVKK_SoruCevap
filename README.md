@@ -12,7 +12,7 @@ poyraz_temiz_stop_words.txt
 
 #### Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar
 
-Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 ------------|------------|-
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
@@ -30,7 +30,7 @@ ModelEgitimiYeniYontem.py|
 
 #### Modeli Eğitmek için gerekli kurulumlar
 
-Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 ------------|------------|---------
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
@@ -49,7 +49,7 @@ poyraz_temiz_stop_words.txt
 
 #### Modelleri Test Etmek için gerekli kurulumlar
 
-Kütüphane Adı | Pip ile İndirme | Pypi sitesi
+Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 ------------|------------|---------
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
