@@ -23,10 +23,8 @@ Tkinter 0.0.2.1 | pip install pytk | https://pypi.org/project/pytk/
 
 Dosya Adı|
 ---|
-arayuz_KVKK_SoruCevapalamaSistemi.py|
-KVKK_100_SORU_CEVAP.txt|
-poyraz_temiz_stop_words.txt|
 ModelEgitimiYeniYontem.py|
+KVKK_100_SORU_CEVAP.txt|
 
 #### Modeli Eğitmek için gerekli kurulumlar
 
@@ -43,9 +41,8 @@ transformers | pip install transformers | https://pypi.org/project/transformers/
 #### Modelleri Test Etmek için gerekli dosyalar
 Dosya Adı|
 ---|
-arayuz_KVKK_SoruCevapalamaSistemi.py
+KVKK_Model_Test.py
 KVKK_100_SORU_CEVAP.txt
-poyraz_temiz_stop_words.txt
 
 #### Modelleri Test Etmek için gerekli kurulumlar
 
