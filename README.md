@@ -8,21 +8,21 @@
 - poyraz_temiz_stop_words.txt
 
 **Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar**
-- sentence_transformers >> https://pypi.org/project/sentence-transformers/0.3.0/
+- pip-21.2.4 >> https://pypi.org/project/pip/
 - diğer ortam
 
 **Modeli Eğitmek için gerekli dosyalar**
 - dosya isimleri
 
 **Modeli Eğitmek için gerekli kurulumlar**
-- torch >> https://pytorch.org/get-started/locally/
+- pip-21.2.4 >> https://pypi.org/project/pip/
 - diğer ortam
 
 **Modelleri Test Etmek için gerekli dosyalar**
 - dosya isimleri
 
 **Modelleri Test Etmek için gerekli kurulumlar**
-- numpy >> https://numpy.org/install/
+- pip-21.2.4 >> https://pypi.org/project/pip/
 - diğer ortam
 
 
