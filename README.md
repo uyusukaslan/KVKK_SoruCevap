@@ -9,6 +9,7 @@
 
 **Sadece Modeli Veri Kümeleri İle Kullanmak için gerekli kurulumlar**
 - pip-21.2.4 >> https://pypi.org/project/pip/
+-  https://pypi.org/project/sentence-transformers/0.3.0/ / pip install sentence-transformers
 - diğer ortam
 
 **Modeli Eğitmek için gerekli dosyalar**
