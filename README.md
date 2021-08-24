@@ -1,3 +1,5 @@
+# __*Projemizin Çalışması için gerekenler*__
+
 **Proje Bağlılık Listesi**
 - arayuz_KVKK_SoruCevapalamaSistemi.py
 - KVKK_100_SORU_CEVAP.txt
