@@ -216,10 +216,10 @@ Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/qu
 
 # Katkılarından Ötürü Teşekkür Ederiz:
 
-Sayın Dr. Coşkun Mermer - Mentor - TÜBİTAK
-Sayın Afra Feyza AKYÜREK - Doktora Öğrencisi - İzmir Fen Lisesi Mezunu
-Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni
+- Sayın Dr. Coşkun Mermer - Mentor - TÜBİTAK
+- Sayın Afra Feyza AKYÜREK - Doktora Öğrencisi - İzmir Fen Lisesi Mezunu
+- Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni
 
 # Son Dil Bükücü Kimdir?
 
-Poyraz Erdoğan - Bornova Anadolu Lisesi ve İzmir DeneYap Atölyesi Öğrencisi
+- Poyraz Erdoğan - Bornova Anadolu Lisesi ve İzmir DeneYap Atölyesi Öğrencisi
