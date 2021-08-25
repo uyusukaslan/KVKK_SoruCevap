@@ -71,7 +71,7 @@ sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.o
 pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
 PyTorch 1.9.0 | pip install torch | https://pypi.org/project/torch/
 tqdm | pip install tqdm | https://pypi.org/project/tqdm/
-numpy 1.21.2 | pip install numpy | https://pypi.org/project/tqdm/
+numpy 1.21.2 | pip install numpy | https://pypi.org/project/numpy/
 
 # Kişisel Verilerin Korunumu Kanunu Soru - Cevap Sistemi
 **Türkiye Açık Kaynak Platformu** tarafından **Türkçe Doğal Dil İşleme** konusunda farkındalık oluşturmak amacıyla 2021 yılında **TeknoFest 2021 İSTANBUL** kapsamında çevrimiçi düzenlenen yarışma için geliştirdiğimiz projemiz **Kişisel Verilerin Korunumu Kanunu (KVKK)** hakkindaki **sorulara cevap veren** otonom bir sohbet yazılımı / çağrı merkezidir.
