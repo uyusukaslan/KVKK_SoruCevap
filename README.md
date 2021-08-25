@@ -1,4 +1,4 @@
-![KVKK Soru Cevap Sistemi Ön İzlemesi](OrnekEkranAlintilari/KVKK_Soru_Cevap_Sistemi_On_izlemesi.gif)
+![KVKK Soru Cevap Sistemi Ön İzlemesi](OrnekEkranAlintilari/KVKK_Soru_Cevap_Sistemi_On_izlemesi01.gif)
 
 # __*Projemizin Çalışması için gerekenler*__
 
