@@ -1,3 +1,5 @@
+![KVKK Soru Cevap Sistemi Ön İzlemesi](OrnekEkranAlintilari/KVKK_Soru_Cevap_Sistemi_On_izlemesi.gif)
+
 # __*Projemizin Çalışması için gerekenler*__
 
 ## Proje Bağlılık Listesi
@@ -180,12 +182,12 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
 - __*/arayuz_KVKK_SoruCevapalamaSistemi.py*__ isimli dosyamız ile hem kullanıcının sorularını alıyoruz hem de onlara cevap veriyoruz.
 
-**İlk tasarımını iyileştirdikten sonra aşağıdaki gibi görülen soru - cevap sistemimizi iyileştirdik.
+**İlk tasarımını iyileştirdikten sonra aşağıdaki gibi görülen soru - cevap sistemimizi iyileştirdik.**
 
 ![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/SoruCevapSistemininCalışmaOrneği01.png)
 ![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/SoruCevapSistemininCalışmaOrneği02.png)
 
-**İyileştirmelerimize devam ederek son hali olan aşağıdaki ekran alıntısı soru - cevap sistemimizi göstermekledir.
+**İyileştirmelerimize devam ederek son hali olan aşağıdaki ekran alıntısı soru - cevap sistemimizi göstermekledir.**
 
 ![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/SoruCevapSistemininCalışmaOrneği03.png)
 
