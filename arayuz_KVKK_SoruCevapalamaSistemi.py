@@ -94,14 +94,12 @@ def sohbetEkraniniOlustur():
             # Eğer hazırladığımız TSV biçimindeki 100 Soru ve Cevabımıza müdehale etmeyecekseniz aşağıdaki
             # satırlarda soru çağırma ve hazır soruları kodlama (encode) kısımlarını döngüden çıkartmak hız kazandıracaktır.
             benzerlikListesi = []
-            soruListesi = sorulariDosyadanOkuveListeOlarakDondur()
 
             # Aşağıdaki döngüde kullanıcının sorusu ile elimizdeki 100 soru karşılaştırılıyor ve
             # benzerlik listesine her bir soru için benzerlik puanı ekleniyor.
+            
             for i in range(100):
-                soru = soruListesi[i][0]
-                soru = onIslemler(soru)
-                benzerlikListesi.append(util.cos_sim(encodedSoru, model.encode(soru)))
+                benzerlikListesi.append(util.cos_sim(encodedSoru, hazirEncodeSorular[i]))
 
             # Benzerlik puanı en büyük soru ve cevabı döndürülür
             bul = benzerlikListesi.index(max(benzerlikListesi))
@@ -138,6 +136,20 @@ def sohbetEkraniniOlustur():
     girdiEkrani.bind("<Return>", soruyuCevapla)
     # Yazışma pencerenin X (kapat) düğmesine basılana kadar devam ettirilir.
     ekran.mainloop()
+
+print("Lütfen bekleyiniz ön hesaplamalar yapılıyor ve ardından KVKK Soru Cevap Sistemi açılacaktır!")
+# Her seferinde çalırılıp aynı hesaplamaları yapmaması için soru listesini PUBLIC oluşturuyoruz.
+soruListesi = sorulariDosyadanOkuveListeOlarakDondur()
+
+# Her seferinde çalırılıp aynı encode işlemini yapmaması için hazır encode soru listesini PUBLIC oluşturuyoruz.
+hazirEncodeSorular = []
+
+# Soru listesindeli tüm soruları onIslemden geciriyoruz.
+for i in range(100):
+    soru = soruListesi[i][0]
+    soru = onIslemler(soru)
+    soru = model.encode(soru)
+    hazirEncodeSorular.append(soru)
 
 # KVKK Soru - Cevap Programı Başlatılır.
 sohbetEkraniniOlustur()
