@@ -173,7 +173,25 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 **TEST DETAYLARI İÇİN MUTLAKA ZİYARET EDİN:** https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelTestSonuclariGorselleri#readme
 
 ![Modellerin Stres Testinin Son Durumu 01](ModelStresTesti/ModellerinStresTestiSonDurum01.png)
-- Modellerimizi stres testine de tabi tutarak kullanacağımız modeli özellikle kullanım alanına yönelik test ettik ve sentence-transformers/quora-distilbert-multilingual isimli https://huggingface.co/sentence-transformers/quora-distilbert-multilingual İnternet adresinden ulaşılabilen modeli seçtik.
+
+Modelimizi güncellenmiş /StresTestiSonuclariniDegerlendir2.py ile test ettik ve model seçimimiz etkileyen anlamlı sonuçlara ulaştık. ModelStresTesti isimli klasör içindeki README.MD dosyamızda detaylarına yer verdiğimiz testimizde aşağıdaki 9 test ile model baskı altına alınmaktadır.
+
+- TEST 11 - 100 KVKK sorusunun sadece 1 harfi değiştirilerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 12 - 100 KVKK sorusunun sadece 2 harfi değiştirilerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 13 - 100 KVKK sorusunun sadece 3 harfi değiştirilerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 21 - 100 KVKK sorusunun sadece 1 kelime eklenerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 22 - 100 KVKK sorusunun sadece 2 kelime eklenerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 23 - 100 KVKK sorusunun sadece 3 kelime eklenerek elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 31 - 100 KVKK sorusunun sadece 1 kelimesi çıkartılarak elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 32 - 100 KVKK sorusunun sadece 1 kelimesi çıkartılarak elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+- TEST 33 - 100 KVKK sorusunun sadece 1 kelimesi çıkartılarak elde edilmiş 300 test sorusu oluşturulur. Bu 300 test sorusu ile 100 KVKK sorusu 11 model için ayrı ayrı metin benzerliği (text similarity) kapsamında util nesnesinin cos_sim metodu ile karşılaştırılmaktadır.
+
+Modellerin baskı testinin ardından /StresTestiSonuclariniDegerlendir1.py isimli dosyamız ile /StresTestiSonuclariniDegerlendir2.py isimli dosyamız ile üretilen benzerlik puanları model kapsamında Standart Sapma, Ortalama, En Büyük ve En Küçük değer diye tek tek hesaplanıp tablolaştırılmaktadır.  
+
+Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/quora-distilbert-multilingual isimli model ile devam etmeye karar verdik.
+
+- sentence-transformers/quora-distilbert-multilingual isimli modele https://huggingface.co/sentence-transformers/quora-distilbert-multilingual İnternet adresinden ulaşabilir ve eğer isterseniz yine hazırladığımız ve ilk başta anlattığımız şekilde eğitip kullanabilirsiniz.
+
 - Model seçimimizin detayları hakkında bilgi almak için https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelStresTesti#readme İnternet adresini inceleyebilirsiniz.
 
 ### Sohbet Yazılımımız
