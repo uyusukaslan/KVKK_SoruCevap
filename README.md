@@ -184,3 +184,6 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 **İyileştirmelerimize devam ederek son hali olan aşağıdaki ekran alıntısı soru - cevap sistemimizi göstermekledir.
 
 ![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/SoruCevapSistemininCalışmaOrneği03.png)
+
+![Modellerin Stres Testinin Son Durumu 01](ModelStresTesti/ModellerinStresTestiSonDurum01.png)
+
