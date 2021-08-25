@@ -211,3 +211,15 @@ Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/qu
 - Tkinter isimli widget ile oluşturuduğumuz sohbet yazılımımız kullanıcının soru sorması için soru kutucuğunu işaretliyor (focus) ve kullanıcının sorusunu girip ENTER tuşuna basmasını bekliyor.
 - ENTER tuşuna basıldıktan sonra kullanıcının sorusuna veri ön işlemleri uygulanıyor, soru modelin cevap verebilmesi için kodlanıyor (encode) ve modelimizin dönütüne göre soru cevaplandırılıyor.
 - Cevabı paragraf içinden model bulmuyor. Projemizin en önemli özelliği girdi boyutunu küçültüp işlem yoğunluğunu azaltmak için herkes gibi soru-cevap işlemi yapmıyoruz. Soruyu ön srularla cümle benzerliği üzerinden karşılaştırıp cevap döndürüyoruz. Bu kısım çalışmamızı özgün kılmaktadır.
+
+
+
+# Katkılarından Ötürü Teşekkür Ederiz:
+
+Sayın Dr. Coşkun Mermer - Mentor - TÜBİTAK
+Sayın Afra Feyza AKYÜREK - Doktora Öğrencisi - İzmir Fen Lisesi Mezunu
+Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni
+
+# Son Dil Bükücü Kimdir?
+
+Poyraz Erdoğan - Bornova Anadolu Lisesi ve İzmir DeneYap Atölyesi Öğrencisi
