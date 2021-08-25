@@ -172,6 +172,10 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 
 **TEST DETAYLARI İÇİN MUTLAKA ZİYARET EDİN:** https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelTestSonuclariGorselleri#readme
 
+![Modellerin Stres Testinin Son Durumu 01](ModelStresTesti/ModellerinStresTestiSonDurum01.png)
+- Modellerimizi stres testine de tabi tutarak kullanacağımız modeli özellikle kullanım alanına yönelik test ettik ve sentence-transformers/quora-distilbert-multilingual isimli https://huggingface.co/sentence-transformers/quora-distilbert-multilingual İnternet adresinden ulaşılabilen modeli seçtik.
+- Model seçimimizin detayları hakkında bilgi almak için https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelStresTesti#readme İnternet adresini inceleyebilirsiniz.
+
 ### Sohbet Yazılımımız
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
 - __*/arayuz_KVKK_SoruCevapalamaSistemi.py*__ isimli dosyamız ile hem kullanıcının sorularını alıyoruz hem de onlara cevap veriyoruz.
@@ -185,5 +189,7 @@ Her bir modeldeki her bir test sorusu için aşağıdaki kriterlere göre hesapl
 
 ![Sohbet Ekranımızın İlk Örneği](OrnekEkranAlintilari/SoruCevapSistemininCalışmaOrneği03.png)
 
-![Modellerin Stres Testinin Son Durumu 01](ModelStresTesti/ModellerinStresTestiSonDurum01.png)
-
+#### Sohbet Yazılımımızın Son Durumu
+- Tkinter isimli widget ile oluşturuduğumuz sohbet yazılımımız kullanıcının soru sorması için soru kutucuğunu işaretliyor (focus) ve kullanıcının sorusunu girip ENTER tuşuna basmasını bekliyor.
+- ENTER tuşuna basıldıktan sonra kullanıcının sorusuna veri ön işlemleri uygulanıyor, soru modelin cevap verebilmesi için kodlanıyor (encode) ve modelimizin dönütüne göre soru cevaplandırılıyor.
+- Cevabı paragraf içinden model bulmuyor. Projemizin en önemli özelliği girdi boyutunu küçültüp işlem yoğunluğunu azaltmak için herkes gibi soru-cevap işlemi yapmıyoruz. Soruyu ön srularla cümle benzerliği üzerinden karşılaştırıp cevap döndürüyoruz. Bu kısım çalışmamızı özgün kılmaktadır.
