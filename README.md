@@ -18,7 +18,6 @@ Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 ------------|------------|-
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
-numpy 1.21.2 | pip install numpy | https://pypi.org/project/tqdm/
 pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
 Tkinter 0.0.2.1 | pip install pytk | https://pypi.org/project/pytk/
 
@@ -36,7 +35,6 @@ Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
 pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
-numpy 1.21.2 | pip install numpy | https://pypi.org/project/tqdm/
 PyTorch 1.9.0 | pip install torch | https://pypi.org/project/torch/
 tqdm | pip install tqdm | https://pypi.org/project/tqdm/
 transformers | pip install transformers | https://pypi.org/project/transformers/
@@ -54,9 +52,9 @@ Kütüphane Adı | Pip ile İndirme | PyPI sitesi
 pip-21.2.4 | **yok** | https://pypi.org/project/pip/
 sentence transformers 0.3.0 | pip install sentence-transformers | https://pypi.org/project/sentence-transformers/0.3.0/
 pandas 1.3.2 | pip install pandas | https://pypi.org/project/pandas/
-numpy 1.21.2 | pip install numpy | https://pypi.org/project/tqdm/
 
 #### Modelleri Stres Testine Sokmak için gerekli dosyalar
+
 Dosya Adı|
 ---|
 KVKK_Model_Stres_Testi.py
