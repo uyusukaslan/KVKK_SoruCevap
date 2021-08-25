@@ -70,8 +70,8 @@ testSorulari = testSoruListesiUret(61) # 300 civarı değiştirilmiş soru
 
 # device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu") 
 
-with open("stresTestiSonuclari.csv",'w',encoding = 'utf-8') as dosya:
-    dosya.write("KVKK ile ilgili Hazır Soru"+","+"Test Sorumuz (1 - 100 Bir harf değişik | 101 - 200 Rastgele bir kelime eklenmiş | 201 - 300 Rastgele bir kelime çıkartılmış)"+","+"Test edilen modelimiz"+","+"Benzerlik Oranı"+"\n")
+with open("stresTestiSonuclari.tsv",'w',encoding = 'utf-8') as dosya:
+    dosya.write("KVKK ile ilgili Hazır Soru"+"\t"+"Test Sorumuz (1 - 100 Bir harf değişik | 101 - 200 Rastgele bir kelime eklenmiş | 201 - 300 Rastgele bir kelime çıkartılmış)"+"\t"+"Test edilen modelimiz"+"\t"+"Benzerlik Oranı"+"\n")
     benzerlikListesi = []
     performansCubugu = tqdm(total = 6600, bar_format='Modelin egitim durumu:[{bar:50}]\t[{n_fmt}/{total_fmt}]')
     for m in modelListesi:
@@ -82,7 +82,7 @@ with open("stresTestiSonuclari.csv",'w',encoding = 'utf-8') as dosya:
             for soru in testSorulari:
                 benzerlik = float(util.cos_sim(model.encode(soru),model.encode(hazirKVKKSorusu)))
                 benzerlikListesi.append(benzerlik)
-                dosya.write(hazirKVKKSorusu+","+soru+","+m+","+str(benzerlik)+"\n")
+                dosya.write(hazirKVKKSorusu+"\t"+soru+"\t"+m+"\t"+str(benzerlik)+"\n")
                 performansCubugu.update(1)
 
 # GPU Kullanmak için gerekli üç satır yukarıda mevcuttur. Burası açıklamadır.
