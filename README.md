@@ -220,6 +220,10 @@ Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/qu
 - Sayın Afra Feyza AKYÜREK - Doktora Öğrencisi - İzmir Fen Lisesi Mezunu
 - Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni
 
-# Son Dil Bükücü Kimdir?
+# Son Dil Bükücü Kimdir? (Poyraz Erdoğan)
 
-- Poyraz Erdoğan - Bornova Anadolu Lisesi ve İzmir DeneYap Atölyesi Öğrencisi
+- Bornova Anadolu Lisesi ve İzmir DeneYap Atölyesi Öğrencisiyim.
+
+- Python programlama dili ile tanıştıktan sonra pythonu robot alanında ve masaüstü programlada kullandım. Veri Bilimi alanında Python kullanıldığını öğrendikten sonra danışmanımın da önerisi ile Turkcell Gelecigi Yazanlar Eğitimlerinden (https://gelecegiyazanlar.turkcell.com.tr/egitimler) yararlandım. Sonra yapay zekada ilerledikçe TeknoFest için proje çıkarabileceğimi fark ettim. Kıymetli paydaşlarımla birlikte bu projeyi oluşturduk. İleride bu projemi https://kvkk.gov.tr/ üzerinden yayınlamak ve geliştirmek istiyorum.
+
+- Bize kendimizi geliştirme fırsatı veren TeknoFest Paydaşlarına, Türkçe Doğal Dil İşleme Yarışması komisyonuna ve bu proje özelinde yardımlarını esirgemeyen Sayın Dr. Coşkun Mermer'e, Sayın Afra Feyza AKYÜREK'e ve Sayın Sertaç ATEŞ'e teşekkür ederim.
