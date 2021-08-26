@@ -28,7 +28,7 @@ warnings.filterwarnings('ignore')
     # torch.cuda.device_count()
     # torch.cuda.get_device_name(0)
 
-checkpoint = "sentence-transformers/paraphrase-MiniLM-L12-v2"
+checkpoint = "sentence-transformers/paraphrase-MiniLM-L3-v2"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 model = AutoModelForSequenceClassification.from_pretrained(checkpoint)
 
