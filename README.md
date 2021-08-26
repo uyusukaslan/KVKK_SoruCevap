@@ -218,7 +218,7 @@ Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/qu
 
 - Sayın Dr. Coşkun Mermer - Mentor - TÜBİTAK
 - Sayın Afra Feyza AKYÜREK - Doktora Öğrencisi - İzmir Fen Lisesi Mezunu
-- Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni
+- Sayın Sertaç ATEŞ - Proje Danışmanı - İzmir Fen Lisesi Bilişim Teknolojileri Öğretmeni ve İzmir DeneYap Atölyesi Eğitmeni
 
 # Son Dil Bükücü Kimdir? (Poyraz Erdoğan)
 
