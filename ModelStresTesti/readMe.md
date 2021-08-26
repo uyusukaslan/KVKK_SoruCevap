@@ -30,9 +30,9 @@ olmak üzere, aşağıdaki tabloda 11 tane ön eğitilmiş modelin yapılan stre
 
 Kullanılabilirlik oranı, ***kırmızı*** renkten ***mavi*** renge giderek artmaktadır.
 
-# Geliştirilmiş Stres Testi - Hesaplamalarımız
-
 ![](ModellerinStresTestiSonDurum01.png)
+
+# Geliştirilmiş Stres Testi - Hesaplamalarımız
 
 ![ModellerinDogrulukDegerlerivePerformanslari](ModellerinDogrulukDegerlerivePerformanslari.png)
 
