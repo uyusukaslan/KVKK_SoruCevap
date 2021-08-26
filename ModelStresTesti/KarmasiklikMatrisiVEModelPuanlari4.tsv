@@ -1,0 +1,11 @@
+sentence-transformers/paraphrase-xlm-r-multilingual-v1	4	0.31
+sentence-transformers/paraphrase-MiniLM-L12-v2	4	0.2966666666666667
+sentence-transformers/paraphrase-MiniLM-L3-v2	4	0.3333333333333333
+sentence-transformers/clip-ViT-B-32-multilingual-v1	4	0.2866666666666667
+sentence-transformers/distiluse-base-multilingual-cased-v2	4	0.3233333333333333
+sentence-transformers/quora-distilbert-multilingual	4	0.2966666666666667
+sentence-transformers/msmarco-distilbert-base-v4	4	0.32
+flax-sentence-embeddings/multi-qa_v1-distilbert-cls_dot	4	0.31666666666666665
+flax-sentence-embeddings/all_datasets_v3_distilroberta-base	4	0.31
+flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos	4	0.3333333333333333
+sentence-transformers/stsb-xlm-r-multilingual	4	0.31333333333333335
