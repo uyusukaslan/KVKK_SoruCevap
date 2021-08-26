@@ -195,7 +195,7 @@ Yukarıda detayını gördüğünüz bu tablo sonucunda sentence-transformers/qu
 - Model seçimimizin detayları hakkında bilgi almak için https://github.com/SonDilBukuculer/KVKK_SoruCevap/tree/main/ModelStresTesti#readme İnternet adresini inceleyebilirsiniz.
 
 #### Karışıklık Matrisi - Modellerin Performansı ve Modelimiz değişti
-Modelimizi güncellenmiş __*/KarmasiklikMatrisiVEModelPuanlari.py*__ ile test ettik ve model seçimimizi etkileyen anlamlı sonuçlara ulaştık. **ModelTestSonuclariGorselleri** isimli klasör içindeki README.MD dosyamızda detaylarına yer verdiğimiz stres testimizin devamı niteliğinde 11 farklı modelimiz için DOĞRULUK TESTİ yaptık. Modelimizi değiştirmeye ve **sentence-transformers/paraphrase-MiniLM-L3-v2** isimli modeli kullanmaya karar verdik.
+Modelimizi güncellenmiş __*/KarmasiklikMatrisiVEModelPuanlari.py*__ ile test ettik ve model seçimimizi etkileyen anlamlı sonuçlara ulaştık. **ModelTestSonuclariGorselleri** isimli klasör içindeki README.MD dosyamızda detaylarına yer verdiğimiz stres testimizin devamı niteliğinde 11 farklı modelimiz için DOĞRULUK TESTİ yaptık. Modelimizi değiştirmeye ve **flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos** isimli modeli kullanmaya karar verdik.
 
 Hesaplamlar için kaynağımız: https://en.wikipedia.org/wiki/Confusion_matrix
 
