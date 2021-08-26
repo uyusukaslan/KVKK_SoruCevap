@@ -199,7 +199,7 @@ Modelimizi güncellenmiş __*/KarmasiklikMatrisiVEModelPuanlari.py*__ ile test e
 
 Hesaplamlar için kaynağımız: https://en.wikipedia.org/wiki/Confusion_matrix
 
-![Modellerin Geliştirilmiş Stres Testi Performansı](//ModelStresTestiModellerinDogrulukDegerlerivePerformanslari.png)
+![Modellerin Geliştirilmiş Stres Testi Performansı](//ModelStresTesti/ModellerinDogrulukDegerlerivePerformanslari.png)
 ![Modellerin Geliştirilmiş Stres Testi Performansı](/ModelStresTesti/ModellerinDogrulukDegerleriveGelistirilmisStresTestiSonuclari.png)
 
 
