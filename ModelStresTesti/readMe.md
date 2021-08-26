@@ -28,6 +28,6 @@ Sütünlar sırasıyla:
 
 olmak üzere, aşağıdaki tabloda 11 tane ön eğitilmiş modelin yapılan stres testine karşılık verdiği cevaplar yer almaktadır.
 
-Kullanılabilirlik oranı, kırmızı renkten mavi renge giderek artmaktadır.
+Kullanılabilirlik oranı, ***kırmızı*** renkten ***mavi*** renge giderek artmaktadır.
 
 ![](ModellerinStresTestiSonDurum01.png)
