@@ -34,6 +34,8 @@ Kullanılabilirlik oranı, ***kırmızı*** renkten ***mavi*** renge giderek art
 
 ![ModellerinDogrulukDegerlerivePerformanslari](ModellerinDogrulukDegerlerivePerformanslari.png)
 
+# Geliştirilmiş Stres Testi Sonuçları
+
 ![ModellerinDogrulukDegerleriveGelistirilmisStresTestiSonuclari](ModellerinDogrulukDegerleriveGelistirilmisStresTestiSonuclari.png)
 
 
