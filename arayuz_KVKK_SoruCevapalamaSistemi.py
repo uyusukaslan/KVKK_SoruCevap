@@ -10,7 +10,7 @@ import tkinter.scrolledtext
 # eğer normalizasyon yapmak isterseniz sadece yorum işaretlerini ilgili satirlardan kaldırmanız yeterlidir.
 
 # Sohbet yazılımımızın kullanacağı HUGGINGFACE modelini çağırıyoruz.
-model = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L3-v2')
+model = SentenceTransformer('flax-sentence-embeddings/multi-qa_v1-MiniLM-L6-mean_cos')
 
 # Bu fonksiyon ile kullanıcının girdiği veriyi ön işlemden geçiriyoruz.
 def onIslemler(cumle):
