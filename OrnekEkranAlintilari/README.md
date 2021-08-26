@@ -32,6 +32,10 @@ Bu GIF'te ise nihai arayüzümüzün kullanımı gösteriliyor.
 
 ![](KVKK_Soru_Cevap_Sistemi_On_izlemesi01.gif)
 
+
+
+
+
 # Model Eğitimi
 
 Eğer modelinizi eğitmek isterseniz, karşınıza böyle bir ekran çıkacaktır. Bu ekranda modelin eğitilirkenki durumu gözlemlenebilmektedir. 
