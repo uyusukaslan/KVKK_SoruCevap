@@ -60,4 +60,4 @@ model.save_pretrained("D:\EgitilmisModeller")
 
 # model.push_to_hub("KVKK-sentence-similarity-pytorch-roberta", use_temp_dir=True, repo_url="https://huggingface.co/sertacates/KVKK-sentence-similarity-pytorch-roberta")
 
-# Eğitilmiş Modelinizi huggingface ile paylaşabilirsiniz.
+# Eğitilmiş Modelinizi huggingface ile paylaşabilirsiniz. Config dosyanızı değiştirmeyi unutmayın.
