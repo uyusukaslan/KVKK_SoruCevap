@@ -1,0 +1,160 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+anyio==3.3.0
+argon2-cffi @ file:///C:/ci/argon2-cffi_1613037869401/work
+asgiref==3.4.1
+async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
+atomicwrites==1.4.0
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
+blis==0.7.4
+brotlipy==0.7.0
+catalogue==2.0.6
+certifi==2021.5.30
+cffi @ file:///C:/ci/cffi_1625831756778/work
+chardet @ file:///C:/ci/chardet_1607706937985/work
+charset-normalizer==2.0.4
+click==8.0.1
+colorama==0.4.4
+cryptography @ file:///C:/ci/cryptography_1616769504165/work
+cycler==0.10.0
+cymem==2.0.5
+debugpy==1.4.1
+decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+Django==3.2.6
+docopt==0.6.2
+dparse==0.5.1
+entrypoints==0.3
+filelock==3.0.12
+gitdb==4.0.7
+GitPython==3.1.20
+huggingface-hub==0.0.12
+idna @ file:///tmp/build/80754af9/idna_1622654382723/work
+importlib-metadata==4.6.4
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
+install==1.3.4
+ipykernel==6.2.0
+ipython @ file:///C:/ci/ipython_1628244015142/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi @ file:///C:/ci/jedi_1611341083684/work
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
+joblib==1.0.1
+json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter-client==7.0.1
+jupyter-core @ file:///C:/ci/jupyter_core_1612213515523/work
+jupyter-server==1.10.2
+jupyterlab==3.1.7
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-server==2.7.2
+kiwisolver==1.3.1
+MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
+matplotlib==3.4.3
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mistune @ file:///C:/ci/mistune_1607359457024/work
+mkl-fft==1.3.0
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+more-itertools @ file:///tmp/build/80754af9/more-itertools_1622818384463/work
+murmurhash==1.1.0.dev0
+nbclassic==0.3.1
+nbclient==0.5.4
+nbconvert @ file:///C:/ci/nbconvert_1624479160025/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+NlpToolkit-Corpus==1.0.11
+NlpToolkit-DataStructure==1.0.9
+NlpToolkit-Deasciifier==1.0.13
+NlpToolkit-Dictionary==1.0.20
+NlpToolkit-Math==1.0.14
+NlpToolkit-MorphologicalAnalysis==1.0.32
+NlpToolkit-NGram==1.0.15
+NlpToolkit-Sampling==1.0.4
+nltk==3.6.2
+notebook @ file:///C:/ci/notebook_1629205890343/work
+numpy==1.21.2
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+pandas==1.3.2
+pandocfilters @ file:///C:/ci/pandocfilters_1605114832805/work
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pathy==0.6.0
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///C:/ci/pillow_1625663294916/work
+pipdeptree==2.1.0
+pipreqs==0.4.10
+pluggy==1.0.0.dev0
+preshed==3.0.5
+prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
+prompt-toolkit==3.0.20
+py @ file:///tmp/build/80754af9/py_1607971587848/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pydantic==1.8.2
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent @ file:///C:/ci/pyrsistent_1625052426389/work
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+pytest==6.2.4
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+pywin32==301
+pywinpty==1.1.3
+PyYAML==5.4.1
+pyzmq @ file:///C:/ci/pyzmq_1628276105793/work
+regex==2021.8.21
+requests==2.26.0
+requests-unixsocket==0.2.0
+sacremoses==0.0.45
+safety==1.10.3
+scikit-learn==0.24.2
+scipy==1.7.1
+Send2Trash==1.8.0
+sentence-transformers==2.0.0
+sentencepiece==0.1.96
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smart-open==5.2.0
+smmap==4.0.0
+sniffio @ file:///C:/ci/sniffio_1614030527509/work
+snowballstemmer==2.1.0
+spacy==3.1.2
+spacy-legacy==3.0.8
+sqlparse==0.4.1
+srsly==2.4.1
+terminado==0.11.1
+testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
+thinc==8.0.8
+threadpoolctl==2.2.0
+tokenizers==0.10.3
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+torch==1.9.0
+torchaudio==0.9.0
+torchvision==0.10.0
+tornado @ file:///C:/ci/tornado_1606924294691/work
+tqdm==4.62.2
+traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
+transformers==4.9.2
+typer==0.3.2
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1622748266870/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
+wasabi==0.8.2
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+websocket-client==1.2.1
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wincertstore==0.2
+yarg==0.1.9
+zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
