@@ -199,6 +199,9 @@ Modelimizi güncellenmiş __*/KarmasiklikMatrisiVEModelPuanlari.py*__ ile test e
 
 Hesaplamlar için kaynağımız: https://en.wikipedia.org/wiki/Confusion_matrix
 
+![Modellerin Geliştirilmiş Stres Testi Performansı](ModellerinDogrulukDegerlerivePerformanslari)
+![Modellerin Geliştirilmiş Stres Testi Performansı](ModellerinDogrulukDegerleriveGelistirilmisStresTestiSonuclari)
+
 
 ### Sohbet Yazılımımız
 - Kullanıcının sorularını tahmin modülüne ileten ve tahmin modülünden aldığı cevabı kullanıcıya döndüren ve kullanıcının gördüğü ara yüzü oluşturan bir PYTHON dosyamız mevcuttur.
