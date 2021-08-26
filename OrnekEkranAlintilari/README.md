@@ -2,7 +2,7 @@
 
 Bu kısımda hangi ekranın neyi anlattığı yazılacaktır.
 
-## Arayüz
+# Arayüz
 
 Arayüzümüz, son kullanıcının hizmetimizi daha rahat bir şekilde kullanabilmesi için oluşturulmuş olup gerekli bütün fonksiyonları içermektedir.
 
@@ -32,7 +32,7 @@ Bu GIF'te ise nihai arayüzümüzün kullanımı gösteriliyor.
 
 ![](KVKK_Soru_Cevap_Sistemi_On_izlemesi01.gif)
 
-## Model Eğitimi
+# Model Eğitimi
 
 Eğer modelinizi eğitmek isterseniz, karşınıza böyle bir ekran çıkacaktır. Bu ekranda modelin eğitilirkenki durumu gözlemlenebilmektedir. 
 
