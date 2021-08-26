@@ -134,5 +134,5 @@ for m in modelListesi:
             print(sayBakalim)
     for TT in range(9):
         with open("KarmasiklikMatrisiVEModelPuanlari"+str(TT)+".tsv",'a',encoding = 'utf-8') as dosya:
-            dosya.write(m+"\t"+str(TT)+"\t"+str(dogruluk[TT]/900)+"\n")
+            dosya.write(m+"\t"+str(TT)+"\t"+str(dogruluk[TT]/100)+"\n")
     print("Model: ",m,"Bitti...")
