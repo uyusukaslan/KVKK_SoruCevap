@@ -221,6 +221,9 @@ Hesaplamlar için kaynağımız: https://en.wikipedia.org/wiki/Confusion_matrix
 - ENTER tuşuna basıldıktan sonra kullanıcının sorusuna veri ön işlemleri uygulanıyor, soru modelin cevap verebilmesi için kodlanıyor (encode) ve modelimizin dönütüne göre soru cevaplandırılıyor.
 - Cevabı paragraf içinden model bulmuyor. Projemizin en önemli özelliği girdi boyutunu küçültüp işlem yoğunluğunu azaltmak için herkes gibi soru-cevap işlemi yapmıyoruz. Soruyu ön srularla cümle benzerliği üzerinden karşılaştırıp cevap döndürüyoruz. Bu kısım çalışmamızı özgün kılmaktadır.
 
+## Proje Ön Gösterim Videosu
+
+Videoya https://youtu.be/QPbfqiE_C2M bağlantısından ulaşabilirsiniz.
 
 
 # Katkılarından Ötürü Teşekkür Ederiz:
